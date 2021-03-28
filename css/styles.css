@@ -1048,14 +1048,16 @@ img {
 }
 
 .modal-form-check-description {
-    display: flex;
+    display:flex;
+    flex-direction: stretch;
     align-items: center;
-    margin: 0 auto;
+    margin: ;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-top: 10px;
     margin-bottom: 30px;
+    width: 100%;
 
 }
 
@@ -1083,8 +1085,16 @@ img {
 
 }
 
+.modal-wrapper-agreement {
+    margin-left: ;
+    margin-right: ;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
 .agreement {
-    display: block;
+    display: inline-block;
     position: relative;
     color: var(--accent-color);
 }
