@@ -405,19 +405,19 @@
                     </li>
                 </ul>
             </div>
-        </div>
-        <div class="ft-form-container">
-            <form action="#" class="ft-form">
-                <b class="ft-form-title">Подпишитесь на рассылку</b>
-                <div class="ft-form-wrapper">
-                    <input type="email" name="user-email" class="ft-form-input" placeholder="E-mail" required>
-                    <button type="submit" class="ft-form-btn"> <span class="ft-form-discription-btn" > Подписаться </span>
-                        <svg class="ft-btn-icon" width="24px" height="24px">
-                            <use href="./images/sprite.svg#icon-icon-send"></use>
-                        </svg>
-                    </button>
-                </div>
-            </form>
+            <div class="ft-form-container">
+                <form action="#" class="ft-form">
+                    <b class="ft-form-title">Подпишитесь на рассылку</b>
+                    <div class="ft-form-wrapper">
+                        <input type="email" name="user-email" class="ft-form-input" placeholder="E-mail" required>
+                        <button type="submit" class="ft-form-btn"> <span class="ft-form-discription-btn" > Подписаться </span>
+                            <svg class="ft-btn-icon" width="24px" height="24px">
+                                <use href="./images/sprite.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
     </footer>
 
@@ -432,10 +432,10 @@
             <b class="modal-title"> Оставьте свои данные, мы вам перезвоним </b>
             <form action="#" class="modal-form">
                 <label class="modal-form-field">
-                    <span class="modal-line-name"> Имя </span>
+                    <span class="modal-line-name modal-line-name-first "> Имя </span>
                     <span class="modal-form-wrapper">
                         <input type="text" name="user-name" class="modal-form-input" required minlength="2">
-                        <svg class="modal-form-icon" width="18px" height="18px">
+                        <svg class="modal-form-icon icon-name" width="12px" height="12px">
                             <use href="./images/sprite.svg#icon-user_modal_icon"></use>
                         </svg>
                     </span>
@@ -444,7 +444,7 @@
                     <span class="modal-line-name"> Телефон </span>
                     <span class="modal-form-wrapper">
                         <input type="tel" name="user-phone" class="modal-form-input" required pattern="(0-9){3}-(0-9){3}-(0-9){2}-(0-9){2}" title="090-000-00-77">
-                        <svg class="modal-form-icon" width="18px" height="18px">
+                        <svg class="modal-form-icon icon-phone" width="13px" height="13px">
                             <use href="./images/sprite.svg#icon-phone_modal_icon"></use>
                         </svg>
                     </span>
@@ -453,20 +453,20 @@
                     <span class="modal-line-name"> Почта</span>
                     <span class="modal-form-wrapper">
                         <input type="email" name="user-email" class="modal-form-input" required>
-                        <svg class="modal-form-icon" width="18px" height="18px">
+                        <svg class="modal-form-icon icon-email" width="15px" height="12px">
                             <use href="./images/sprite.svg#icon-mail_modal_icon"></use>
                         </svg>
                     </span>
                 </label>
                 <label class="modal-form-field">
-                    <span class="modal-line-name">Сообщение</span>
+                    <span class="modal-line-name">Коментарий</span>
                     <span class="modal-form-wrapper">
                          <textarea name="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
                     </span>
                 </label>
                 <input type="checkbox" id="user-term" name="user-term" class="modal-form-term visually-hidden">
                 <label for="user-term" class="modal-form-check-description">
-                    <span class="modal-wrapper-agreement"> Соглашаюсь с рассылкой и принимаю&nbsp;<a class="reset-link agreement" href=""> Условия договора </a> </span>
+                    <span class="modal-wrapper-agreement">Соглашаюсь с рассылкой и принимаю&nbsp;<a class="reset-link agreement" href="">Условия договора</a> </span>
                 </label>
                 <button type="submit" class="modal-form-btn">Отправить</button>
             </form>
